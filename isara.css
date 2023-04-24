@@ -1,0 +1,2379 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h2, h3, h4, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+   
+  }
+html{
+    font-size: 100%;
+}
+
+
+
+
+/*header*/
+.logo{
+    margin: 0 7%;
+    padding: 5% 0;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    max-width: 100%;
+    
+}
+.logo img{
+    vertical-align: bottom;
+}
+.logo p{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.navbar{
+    
+    height: 75px;
+}
+.navbar-text{
+    width:313px;
+    height:44px;
+    background:rgb(218,107,100);
+    border-radius:30px;
+    padding:11px 50px ;
+    text-decoration: none;
+}
+.navbar-text:hover{
+    background-color: #cd3a31;
+}
+.sp span{
+    visibility: hidden;
+    background-color: #DA6B64;
+}
+/*main*/
+#home{
+    background-image: url(images/main.jpg);
+    height: 630px;
+}
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: cover;
+}
+.mainb p{
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.maint h1{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bolder;
+}
+.mainsc{
+   padding-top: 120px;
+}
+.mainsc img{
+    margin: 10px 0 40px 0;
+}
+/*part1*/
+.part1{
+    background-color: #EBB94D;
+}
+.tex{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tex1 p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bolder
+}
+
+.tex2 p{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: bolder;
+    color: #c7254e;
+   padding-top: 14px;
+}
+.tex2 span{
+     background-color: #F9F2F4;
+}
+.tex3 p{
+    font-size: 21px;
+    line-height: 34px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.submit a{
+    text-decoration: none;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bolder;
+  line-height: 45px;
+  display: block;
+  height: 100%;
+  margin-bottom:60px ;
+}
+.submit{
+    width: 1028px;
+    height:104px;
+    border:1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+   padding: 30px 0 30px 0;
+    margin: 44px 0 67px 0;
+}
+.submit:hover{
+    background-color: #cd3a31;
+}
+.submit span {
+    margin-bottom:30px;
+}
+.sns li{
+    display: inline;
+}
+.sns{
+    margin-bottom: 10px;
+}
+.respan{
+    display: none;
+}
+br{
+    display: block;
+}
+/*part2*/
+h2 {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    padding: 35px 0;
+    margin: 10px auto;
+  }
+  
+  h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #EBB94D;
+    border-left: 4px solid #EBB94D;
+  }
+  
+  h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #EBB94D;
+    border-right: 4px solid #EBB94D;
+  }
+  
+  .explain p{
+      font-size: 20px;
+      line-height: 32px;
+  }
+  .explain span{
+    background: linear-gradient(transparent 70%, #EBB94D 0%);
+    font-weight: 700;
+  }
+  
+.title h2{
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin-top: initial;
+}
+.title{
+    margin-bottom:40px ;
+} 
+#sub1{
+    background-image: url(images/introbottom.jpg);
+    height:580px; 
+}
+.big-bg2{
+    background-size:cover;
+    background-position: center 65%;
+    background-repeat: no-repeat;
+   max-width: 100%;
+}
+.mainsc2{
+    padding: 40px 0;
+}
+
+/*part3*/
+.part3{
+    background-color: #FEF5E0;
+    margin-top: initial;
+    position: relative;
+    padding-bottom: 70px;
+}
+.circle {
+    width: 100px;
+    height: 100px; 
+    background-color: #EBB94D;
+    color: white;
+    border-radius: 50%;/* ←円を作る */
+    margin: 0 auto;/* ←ブロック要素が左右に中央揃え */
+    position: absolute;
+    top: -7%;
+    left: 47%;
+    text-align:center;
+    line-height: 100px;
+    font-weight: 400;
+}
+.earn-skill{
+    background-color: white;
+    border: 2px solid #EBB94D;
+    border-radius: 4px;
+}
+.focus h3{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.focus{
+    margin-bottom: 30px;
+}
+.earn-skill h3{
+    margin:32px 0 20px 0 ;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.list{
+    display: flex;
+    justify-content: center;
+  flex-wrap: wrap;
+}
+.earn-method li{
+    padding:0 25px 50px 25px;
+}
+.figure-caption p{
+    font-size: 12px;
+    line-height: 19px;
+    
+}
+.list li{
+    list-style: none;
+}
+/*part4*/
+
+#sub3{
+    background-image: url(images/aboutsecondbg.jpg);
+}
+.big-bg3{
+    padding: 40px 0;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: cover; 
+}
+.mainsc4 h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+
+.step{
+    padding: 30px 0 40px 0;
+}
+.card-body h5{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.card-body p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.card-title{
+    text-align: center;
+    
+    height:25px;
+    background:#EBB94D;
+    border-radius:5px;
+    margin-bottom: 30px;
+   
+}
+.card-body{
+    padding: 30px;
+}
+
+/*part5*/
+.base{
+    padding: 40px 0;
+}
+.part5{
+    background-color: #016EA9;
+}
+.base p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.base span{
+    color: #ebb94d;
+}
+/*part6*/
+.part6{
+    padding: 40px 0;
+}
+.round4{
+    display: flex;
+    justify-content:center;
+ 
+}
+.round4 li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 43px;
+}
+.part6 h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0 40px 0;
+}
+.part6 span{
+    font-size: 16px;
+
+}
+.learn p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.these p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 40px 0 10px 0;
+}
+.round4 img{
+    width: 180px;
+    height: 180px;
+}
+/*part7*/
+.part7{
+    background-color: #FEF5E0;
+    padding: 40px 0;
+}
+.sp-title span{
+    font-size: 28px;
+    line-height: 40px;
+}
+.sp-title h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: initial;
+}
+.sp-title{
+    margin-bottom:40px ;
+} 
+.card-title2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #ebb94d;
+    margin: 8px auto;
+}
+.card-body2 p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.texta{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    color: #ebb94d;
+    margin-bottom: 10px;
+}
+.textb{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.textc{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.serious{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.more{
+    padding: 40px 20px;
+    margin: 40px auto;
+}
+/*part8*/
+#sub4{
+    background-image: url(images/teacherbg.jpg);
+}
+.big-bg4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: cover; 
+    padding: 40px 0;
+}
+
+.aria img{
+        border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+        width:  198px;       /* ※縦横を同値に */
+        height: 198px;       /* ※縦横を同値に */
+        position: absolute;
+        top: -160px;
+        left: 26%;
+        text-align: center
+}
+.card-body3{
+    border: 2px white solid; 
+}
+.big-bg4 h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+.big-bg4 p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+   
+}
+.founded p{
+     margin: 32px 0 44px 0;
+}
+.card-body3 p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+.card-body3{
+    padding: 40px;
+}
+.teacher{
+    margin-bottom: 9px;
+}
+.name{
+    margin-bottom: 13px;
+}
+.found{
+    
+    padding-top: 160px;
+}
+.aria{
+    position: relative;
+}
+.manabusp{
+    margin-bottom: 22px;
+}
+
+/*part9*/
+.nomad h2::before {
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+  }
+  
+ .nomad h2::after {
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+  }
+  .part9{
+      background-color: #EBB94D;
+      padding: 40px 0;
+  }
+.circle2{
+    width: 80px;
+    height: 80px; 
+    background-color: white;
+    color: #EBB94D;
+    border-radius: 50%;/* ←円を作る */
+    margin: 0 auto;
+    text-align:center;
+    line-height: 80px;
+}
+.title2 h2{
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin-top: initial;
+    margin-bottom: initial;
+}
+.nomad{
+    margin-top: 15px;
+}
+
+.triangle{
+    width:0;
+    border-top: 30px solid #eab857;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    margin:0 auto;
+  }
+/*part10*/
+.ceo-pro{
+    display: none;
+}
+.ceo img{
+    width: 245px;
+    height: 245px;
+    border: 3px solid #EBB94D;
+}
+.react h3{
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.react h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.react p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.ceosc p{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #777777;
+}
+.ms{
+    font-style: italic;
+   
+    
+}
+.part10{
+    padding: 20px 0 40px 0;
+}
+.react h4{
+    margin: 10px 0 30px 0;
+}
+.react{
+    margin-bottom: 30px;
+}
+.ceosc{
+    margin: 15px 0 10px 0;
+}
+.ceo{
+    padding: 20px 0;
+}
+.ceotop{
+   text-decoration: underline;
+   color: #777777;
+}
+.small p{
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777777;
+
+}
+/*part11*/
+#sub5{
+    background-image: url(images/classbg.jpg);
+    padding: 40px 0;
+}
+.big-bg5{
+    background-size: cover;
+    background-position: center;
+    background-repeat: cover; 
+}
+
+.list-group li{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.plan{
+    max-width: 60%;
+}
+.contents h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.schedule{
+    padding: 40px 15px;
+    
+}
+.list-group{
+    border: 3px solid #016EA9;
+}
+.list-group p{
+    padding: 15px; 
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+/*part12*/
+.risk{
+    padding: 40px 0;
+}
+.risk p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+/*part13*/
+.part13{
+    padding: 40px 0;
+}
+.flow-top h3{
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+}
+.flow-top img{
+    margin: 40px 0;
+}
+.box{
+    background-color: #FEF5E0;
+    border-radius: 4px;
+    display: grid;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    padding: 10px 35px;
+}
+.section li{
+    padding: 20px 0;
+}
+.figure-title p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: black;
+}
+.abc{
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+.def{
+    grid-column: 2 / 3;
+}
+.attention p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.nomal p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.line01{
+    height:30px;
+    width:800px;
+    margin:0 auto;
+    border:2px solid #eab857;
+    border-top:transparent;
+    border-right:transparent ;
+  }
+  .line02{
+    height:30px;
+    width:800px;
+    margin:0 auto;
+    border:2px solid #eab857;
+    border-left: transparent;
+    border-bottom: transparent;
+  }
+  .line03{
+    height:30px;
+    width:800px;
+    margin:0 auto;
+    border:2px solid #eab857;
+    border-top:transparent;
+    border-left:transparent ;
+  }
+  .line04{
+    height:30px;
+    width:800px;
+    margin:0 auto;
+    border:2px solid #eab857;
+    border-right: transparent;
+    border-bottom: transparent;
+  }
+.mobile-flow{
+    display: none;
+}
+/*part14*/
+#sub6{
+    background-image: url(images/bangkokbg.jpg);
+    padding: 80px 0;
+}
+.big-bg6{
+    background-size: cover;
+    background-position: center;
+    background-repeat: cover; 
+}
+.bangkokbg h3{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.reason p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.good li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.env p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.reason{
+    margin-bottom: 10px;
+}
+/*part15*/
+.part15{
+    background-color: #F7C23C;
+    padding: 40px 0 60px 0;
+}
+.gift{
+    border: 2px solid white;
+    padding: 40px;
+    position: relative;
+    top: 20px;
+}
+.gift-item {
+    width:250px;
+    height: 250px; 
+    background-color: white;
+    border-radius: 50%;/* ←円を作る */
+    margin: 0 auto;/* ←ブロック要素が左右に中央揃え */
+    text-align:center;
+}
+.gift-item h4{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ebb94d;
+    padding-top: 50px;
+}
+.gift-item p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+.part15 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0 40px 0;
+}
+.part15 p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 70px;
+}
+.part15 span{
+    color: white;
+}
+.benefit p{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+     background-color:#F7C23C ;
+}
+.benefit{
+    z-index: 7;
+    position: absolute;
+    text-align: center;
+    left: 30%;
+}
+.relative{
+    display: none;
+}
+.gift2{
+    display: none;
+}
+/*part16*/
+#sub7{
+    background-image: url(images/specialdetail.jpg);
+    padding: 40px 0;
+}
+.big-bg7{
+    background-size: cover;
+    background-position: center;
+    background-repeat: cover; 
+}
+.part16 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+.aim p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.aim{
+    margin-bottom: 40px;
+}
+.part16 h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+}
+.part16 h2::before{
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+}
+.part16 h2::after{
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+.worth p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+.worth{
+    margin: 20px 0 40px 0; 
+}
+.part16 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+.aim p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.aim{
+    margin-bottom: 40px;
+}
+.part16 h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+}
+.part16 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+.aim p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.aim{
+    margin-bottom: 40px;
+}
+.part16 h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+}
+.brank{
+    display: block;
+}
+/*part17*/
+.manage-img img{
+    width: 192px;
+    height: 145px;
+}
+.txt-left{
+    text-align: left;
+}
+.part17{
+    padding: 40px 0;
+}
+.part17 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0 35px 0;
+}
+.part17 h4{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.txt-left p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.curriculum li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.curriculum{
+    margin: 30px 0 35px 0;
+}
+/*part18*/
+.part18{
+    background-color: #EBB94D;
+    padding: 40px 0;
+}
+.part18 h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.part18 p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.form-item{
+    margin-bottom: 25px;
+  
+}
+.form-item input{
+    padding: 10px;
+    height: 55px;
+}
+.go-form{
+    padding:  0 140px ;
+}
+.go-isara button{
+    width: 720px;
+    height:55px;
+    border:1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 50px;
+    text-align: center;
+    
+   padding: 10px  80px ;
+    margin: 10px 0;
+}
+.go-isara button:hover{
+    background-color: #cd3a31;
+}
+.btn-submit {
+    font-size: 23px;
+    line-height: 37px;
+    font-weight: 600;
+    color: white;
+}
+/*part19*/
+.part19{
+    padding: 40px 0;
+}
+.part19 p{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0 40px 0;
+}
+.q-btn h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+}
+.q-body p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+/*footer*/
+footer{
+    padding: 40px 0 20px 0;
+    background-color: #ECECEC;
+}
+.copy p{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+.last p{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 3px;
+}
+.last{
+    margin-top: 40px;
+}
+.copy{
+    padding-bottom: 5px;
+}
+.copy a{
+    text-decoration: none;
+}
+.copy a:hover{
+    text-decoration: underline;
+}
+.last a{
+    text-decoration: none;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+
+/* ボタンのスタイル */
+.page-top {
+    /* buttonタグのリセットCSS */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+  
+    /* ボタンの装飾 */
+    position: fixed;
+    right: 45px;
+    bottom: 85px;
+    z-index: 100;
+   padding: 20px;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .page-top i{
+    font-size: 30px;
+  }
+  
+
+
+
+/*スマホ*/
+@media (max-width:769px) {
+    /*headeer*/
+    .logo p{
+        padding: initial;
+        margin: initial;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .logo{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: initial;
+        margin: initial;
+        margin-left: 5%;
+        flex-wrap: inherit;
+        align-items: flex-start!important;
+        justify-content: space-between;
+    }
+.logo img{
+    width: 111px;
+    font-size: 10px;
+    line-height: 16px;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.ss{
+    margin-left: 30%;
+    padding-top: 20%;
+    
+    box-sizing: border-box;
+}
+    .sp span{
+        height: 75px;
+        width: 76px;
+        visibility: visible;
+    }
+    .sp p{
+        padding-left: 7%;
+    }
+
+    /*main*/
+    #home{
+        background-image: url(images/mainsp.jpg);
+        min-height: 80px;
+        height: 400px;
+    }
+    .mainb p{
+        font-size: 18px;
+        line-height: 29px;
+        padding-top: 0;
+    }
+    .maint h1{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .mainsc{
+        padding-top: 90px;
+     }
+    /*part1*/
+    .submit{
+        max-width: 90%;
+        height: 130px;
+   
+    }
+  .respan{
+      display: block;
+  }
+  br{
+    display: block;
+}
+.tex{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    .tex1 p{
+        font-size: 15px;
+        line-height:24px;
+    }
+    .tex2 p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .tex3 p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .submit a{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    /*part2*/
+    .title h2 {
+        position: relative;
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      
+      h2::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border-top: 4px solid #EBB94D;
+        border-left: 4px solid #EBB94D;
+      }
+      
+      h2::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        border-bottom: 4px solid #EBB94D;
+        border-right: 4px solid #EBB94D;
+      }
+      .mainsc2{
+          padding: 30px 0;
+      }
+      .explain p{
+          font-size: 15px;
+          line-height: 24px;
+      }
+      
+      #sub1{
+      background-image: none;
+    }
+    #sub2{
+        background-image: url(images/introbottom.jpg);
+        min-height: 10vh;
+    }
+    .min-bg{
+        background-size:cover;
+        background-position:center bottom ;
+        background-repeat: no-repeat;
+       max-width: 100%;
+    }
+
+    /*part3*/
+    .focus h3{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .earn-skill{
+        max-width: 90%;
+    }
+   .pc img{
+       width: 32px;
+       height: 30px;
+   } 
+   .sales img{
+    width: 31px;
+    height: 30px;
+   }
+   .document img{
+    width: 24px;
+    height: 30px;
+   }
+   .plusone img{
+    width: 31px;
+    height: 30px;
+   }
+   .specific img{
+       width :75px;
+       height: 30px;
+   }
+   .figure-caption p{
+    font-size: 10px;
+    line-height: 16px;
+   }
+   .circle {
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+    line-height: 60px;
+    top: -3%;
+    left: 43%;
+   }
+   /*part4*/
+   #sub3{
+       background-image: url(images/aboutsecondbgsp2.jpg);
+       padding: 30px;
+   }
+   .mainsc4 h3{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.card-body{
+    padding: 15px 50px;
+    
+}
+.card-title{
+    margin-bottom: 15px;
+}
+.card-body p{
+    margin-bottom: 5px;
+}
+/*part5*/
+.base p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.base{
+    padding: 20px 0;
+}
+/*part6*/
+.part6{
+    padding: 20px 0;
+}
+.part6 h3{
+    font-size: 18px;
+    margin: 20px 0 35px 0;
+}
+.part6 span{
+    font-size:12px ;
+}
+.learn p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.these p{
+    font-size: 12px;
+    line-height: 19px;
+    margin: 15px 0 10px 0;
+}
+.round4 img{
+    width: 56px;
+    height: 56px;
+}
+.round4 li{
+    padding-left: 5px;
+}
+/*part7*/
+.sp-title h2 {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 15px;
+  }
+  
+.sp-title span{
+    font-size: 18px;
+    line-height: 40px;
+}
+.card-title2{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+.card-body2 p{
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+}
+.card-body2{
+    padding: 0 20px;
+}
+.texta{
+    font-size: 18px;
+    line-height: 29px;
+}
+.textb{
+    font-size: 15px;
+    line-height: 24px;
+}
+.textc{
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.serious{
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+}
+/*part8*/
+
+.aria img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  120px;       /* ※縦横を同値に */
+    height: 120px;       /* ※縦横を同値に */
+    position: absolute;
+    top: 40%!important;
+    left: 33.8%;
+
+    
+}
+.big-bg4{
+    padding: 20px 0;
+}
+.big-bg4 h3{
+font-size: 18px;
+line-height: 40px;
+margin: 20px 10px;
+}
+.big-bg4 p{
+font-weight: 600;
+font-size: 12px;
+line-height: 19px;
+}
+.founded p{
+ margin: 30px 0 20px 0;
+}
+.card-body3 p{
+font-weight: 300;
+font-size: 12px;
+line-height:19px;
+}
+.card-body3{
+padding: 40px 10px 10px 10px;
+margin-bottom: 10px;
+}
+.found{
+padding-top: 0;
+
+}
+.territory{
+    margin-top: 120px;
+}
+.aria{
+    position: relative;
+    bottom: 90px;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*part9*/
+.part9{
+    padding: 20px 0;
+}
+.circle2{
+    width: 60px;
+    height: 60px; 
+    line-height: 60px;
+    font-size: 12px;
+}
+.title2 h2{
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin-top: initial;
+    margin-bottom: initial;
+    padding: 10px;
+        margin: 10px auto;
+    width: 90%;
+}
+  .title2 h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+   
+  }
+  
+  .title2 h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+  
+    
+  }
+  .triangle{
+    width:0;
+    border-top: 15px solid #eab857;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    margin:0 auto;
+  }
+/*part10*/
+.part10{
+    padding: 20px 0 20px 0;
+}
+.ceo-pro{
+    display: none;
+}
+.ceo img{
+    width: 103px;
+    height: 103px;
+    
+}
+.react h3{
+    font-size: 18px;
+    line-height: 29px;
+}
+.react h4{
+    font-size: 12px;
+    line-height: 19px;
+}
+.react p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.ceosc p .ms{
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+.ceo{
+    padding-right:  3%;
+    padding-left:  3%;
+}
+.ceosc{
+    margin-top: 0;
+}
+.wrapper{
+    overflow: hidden;
+}
+.small p{
+    line-height: 19px;
+    font-size: 12px;
+}
+/*part11*/
+#sub5{
+    padding: 20px 0;
+}
+.list-group li{
+    font-size: 12px;
+    line-height: 19px;
+}
+.plan{
+    max-width: 100%;
+}
+.contents h3{
+    font-size: 18px;
+}
+.content p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.list-group p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.schedule{
+    padding: initial;
+    padding: 0px 10px 10px 10px;
+}
+.plan{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*part12*/
+
+.risk p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.risk{
+    padding: 20px 0;
+}
+/*part13*/
+.pc-flow{
+    display: none;
+}
+.mobile-flow{
+    display: block;
+}
+.part13{
+    padding: 20px 0;
+}
+.flow-top h3{
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.accordion-button img{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+.accordion-button li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.accordion{
+    max-width: 100%;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.click {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+}
+.ac-body{
+    padding: 20px 15px;
+}
+.nomal p{
+    margin-bottom: 10px!important;
+    font-size: 12px;
+    line-height: 19px;
+}
+.attention p{
+    margin: initial;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 19px;
+}
+/*part14*/
+#sub6{
+    background-image: url(images/bangkokbgsp2.jpg);
+    padding: 20px 15px;
+}
+
+.bangkokbg h3{
+    margin: 20px 0;
+    text-align: center;
+}
+.reason p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.good li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+.env p{
+    font-size: 15px;
+    line-height: 24px;
+}
+/*part15*/
+.part15{
+    padding: 20px 0;
+}
+.gift{
+    display: none;
+}
+.privilege{
+    width:60px;
+    height: 60px; 
+    background-color: white;
+    border-radius: 50%;/* ←円を作る */
+    margin: 0 auto;/* ←ブロック要素が左右に中央揃え */
+    text-align:center;
+    line-height:60px;
+    color:#ebb94d ;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.gifts{
+    display: flex;
+   position: relative;
+    bottom: -10px;
+    top: 10px;
+}
+.gift-item2 li{
+    list-style: none;
+    display: inline-block; 
+
+}
+.gift-item2{
+    border: 2px solid white;
+    padding: 30px;
+}
+.txt{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+   text-align: left;
+    color: white;
+    padding: 12px 0 12px 3px;
+}
+.surprise{
+    margin: 15px 0;
+}
+.part15 h3{
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+.part15 p{
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 70px;
+}
+
+.benefit{
+    display: none;
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: -28px;
+    left: 25%;
+   
+}
+.relative p{
+     font-size: 18px;
+    line-height: 29px;
+    font-weight: 600;
+    background-color: #F7C23C ;
+}
+.relative{
+    display: block;
+}
+.gift2{
+    display: block;
+}
+/*part16*/
+#sub7{
+    background-image: url(images/specialdetailsp2.jpg);
+    padding: 20px 10px;
+}
+.part16 h2 {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .part16 h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+  }
+  
+  .part16 h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+  }
+  .part16 h3{
+    font-size: 18px;
+    line-height: 29px;
+}
+.aim p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.aim{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.brank{
+    display: none;
+}
+.worth p{
+    font-size: 12px;
+    line-height: 19px;
+}
+/*part17*/
+.manage-img img{
+    width: 100%;
+    height: 258px;
+}
+.part17 h3{
+    font-size: 18px;
+}
+.part17 h4{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.part17{
+    padding: 20px 0;
+}
+.txt-left{
+    padding-top: 10px;
+}
+/*part18*/
+.part18{
+    padding: 20px 0;
+}
+.part18 h3{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.part18 p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.form-item input{
+    padding: 10px;
+    height: 55px;
+}
+.go-form{
+    padding: initial;
+}
+.go-isara button{
+    max-width: 100%;
+    height:55px;
+    border:1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 50px;
+    text-align: center;
+    
+   padding: 10px  80px ;
+    margin: 10px 0;
+}
+.btn-submit {
+    font-size: 23px;
+    line-height: 37px;
+    font-weight: 600;
+    color: white;
+}
+/*part19*/
+.part19{
+    padding: 10px 0;
+}
+.part19 p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.q-btn h4{
+    font-size: 15px;
+    line-height: 17px;
+}
+.q-body p{
+    font-size: 12px;
+    line-height: 19px;
+}
+/*footer*/
+footer{
+    padding: 20px 15px 0 0;
+}
+.last p{
+    letter-spacing: 1px;
+    padding: 5px;
+}
+/*ボタン*/
+.page-top {
+    /* buttonタグのリセットCSS */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+  
+    /* ボタンの装飾 */
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 100;
+   padding: 15px;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .page-top i{
+    font-size: 20px;
+  }
+  
+}
+
+
+/*ipad*/
+@media screen and (min-width:768px) and ( max-width:1022px) {
+    /*main*/
+    #home{
+        height: 550px;
+    }
+    .mainb p{
+        font-size: 24px;
+        line-height: 38px;
+        
+    }
+    .maint h1{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .mainsc{
+        padding-top: 170px;
+     }
+    /*part1*/
+    .tex1 p{
+        font-size: 16px;
+        line-height:26px;
+    }
+    .tex2 p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .submit a{
+        font-size: 18px;
+        line-height: 29px;
+    }
+    /*part2*/
+    .title h2{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .explain p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /*part3*/
+    .circle {
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+        line-height: 60px;
+        top: -3%;
+        left: 46%;
+       }
+       .focus h3{
+     font-size: 16px;
+        line-height: 26px;
+    }
+    .earn-method li{
+        padding:5px 10px;
+    }
+    .earn-method{
+        padding: 10px;
+    }
+    .earn-skill h3{
+        margin: 10 0 20px 0;
+    }
+   /*part4*/
+   .mainsc4 h3{
+    font-size: 24px;
+    line-height: 30px;
+}
+.ipad-sp{
+    display: none;
+}
+.base p{
+    font-size: 13px;
+    line-height: 21px;
+}
+.card-body h5{
+    font-size: 14px;
+    line-height: 22px;
+}
+.card-body p{
+    font-size: 12px;
+    line-height: 19px;
+
+}
+.step{
+    max-width: 40%;
+}
+/*part5*/
+.ipad-txt{
+    font-size: 12px;
+    line-height: 19px;
+}
+/*part6*/
+.part6 h3{
+    font-size: 24px;
+}
+.part6 span{
+    font-size:14px ;
+}
+.part6{
+    padding: 20px 0;
+}
+.learn p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.these p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.round4 img{
+    width: 120px;
+    height: 120px;
+}
+.round4 li{
+    padding: 20px;
+}
+/*part7*/
+.sp-title h2{
+    font-size: 16px;
+    line-height: 22px;
+}
+.sp-title span{
+    font-size: 24px;
+    line-height: 40px;
+}
+.card2 img{
+    width: 300px;
+    height: 120px;
+}
+.card-title2{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.card-body2 p{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+.texta{
+    font-size: 24px;
+    line-height: 38px;
+}
+.textb{
+    font-size: 16px;
+    line-height: 26px;
+}
+/*part8*/
+.aria img{
+    left: 42%;  
+}
+.big-bg4{
+    padding: 50px 0;
+}
+.big-bg4 h3{
+font-size: 24px;
+line-height: 40px;
+}
+.big-bg4 p{
+font-size: 14px;
+line-height: 22px;
+}
+
+.card-body3 p{
+font-size: 14px;
+line-height:22px;
+}
+/*part9*/
+.circle2{
+    width: 80px;
+    height: 80px; 
+    line-height: 80px;
+    font-size: 20px;
+}
+.title2 h2{
+font-size: 18px;
+line-height: 40px;
+}
+/*part10*/
+.ceo img{
+    width: 222px;
+    height: 222px;
+    
+}
+.react h3{
+    font-size: 24px;
+    line-height: 38px;
+}
+.react h4{
+    font-size: 14px;
+    line-height: 22px;
+}
+.ceosc p .ms{
+    font-size: 18px;
+    line-height: 29px;
+    
+}
+
+.ceosc{
+    padding-left: 100px;
+}
+.ceo-pro{
+    display: none;
+}
+/*part11*/
+.contents h3{
+    font-size: 24px;
+    line-height: 40px;
+}
+.content p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.plan{
+    max-width: 80%;
+}
+.list-group p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.list-group li{
+    font-size: 14px;
+    line-height: 22px;
+}
+/*part12*/
+.risk p{
+    font-size: 16px;
+    line-height: 26px;
+}
+/*part13*/
+.flow-top h3{
+    font-size: 24px;
+}
+.click {
+    font-size: 16px;
+    line-height: 18px;
+}
+.attention p{
+    font-size: 14px;
+    line-height: 22px;
+}
+/*part14*/
+.good li{
+    font-size: 14px;
+    line-height: 22px;
+}
+.env p{
+    font-size: 16px;
+    line-height: 26px;
+}
+/*part15*/
+.part15{
+    padding: 40px 0;
+}
+.part15 h3{
+    font-size: 24px;
+}
+.part15 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.relative p{
+    font-size: 24px;
+   line-height: 38px;
+}
+.privilege{
+    width:80px;
+    height: 80px; 
+    line-height:80px;
+    font-size: 20px;
+
+}
+.txt{
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.absolute {
+    top: -35px;
+    left: 34%;
+   
+}
+/*part16*/
+#sub7{
+    padding: 40px 0;
+}
+.part16 h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .part16 h3{
+    font-size: 24px;
+    line-height: 38px;
+}
+.aim p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.worth p{
+    font-size: 16px;
+    line-height: 26px;
+}
+/*part17*/
+.manage-img img{
+    width: 100%;
+    height: auto;
+}
+.part17 h3{
+    font-size: 24px;
+}
+.part17 h4{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.txt-left{
+    padding-bottom: 20px;
+}
+/*part18*/
+.part18{
+    padding: 40px 0;
+}
+.part18 h3{
+    font-size: 24px;
+}
+.part18 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.go-form{
+    padding:  0 80px ;
+}
+/*part19*/
+.part19{
+    padding: 40px 0;
+}
+.part19 p{
+    font-size: 24px;
+}
+.q-btn h4{
+    font-size: 16px;
+    line-height: 18px;
+}
+.q-body p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+}
+
+
+
+
+
+
+/*ipad pro*/
+@media screen and (min-width:1024px) and ( max-width:1100px){
+ .ceo-pro{
+     display: block;
+ }
+ .ceosc p{
+     padding-left: 10px;
+ }
+ h2 {
+    width: 80%;
+}
+/*part1*/
+.submit{
+    width: 900px;
+}
+/*part3*/
+.circle {
+    top: -7%;
+    left: 45%;
+   }
+/*part4*/
+
+/*
+こちらの方が見栄えがよいと思ったので特にいじりませんでした。
+*/
+
+/*part8*/
+.aria img{
+   
+    top: -160px;
+    left: 19%;
+
+}
+/*part13*/
+.flow-top img{
+    width: 945px;
+}
+/*part15*/
+.benefit{
+    left: 22%;
+}
+/*part18*/
+.go-isara button{
+    max-width: 100%;
+}
+}
