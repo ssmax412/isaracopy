@@ -1976,6 +1976,48 @@ footer{
 
 /*ipad*/
 @media screen and (min-width:768px) and ( max-width:1022px) {
+    .logo p{
+        padding: initial;
+        margin: initial;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .logo{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: initial;
+        margin: initial;
+        margin-left: 5%;
+        flex-wrap: inherit;
+        align-items: flex-start!important;
+        justify-content: space-between;
+    }
+.logo img{
+    width: 111px;
+    font-size: 10px;
+    line-height: 16px;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.ss{
+    margin-left: 30%;
+    padding-top: 20%;
+    
+    box-sizing: border-box;
+}
+    .sp span{
+        height: 75px;
+        width: 76px;
+        visibility: visible;
+    }
+    .sp p{
+        padding-left: 7%;
+    }
+
     /*main*/
     #home{
         height: 550px;
@@ -2004,11 +2046,22 @@ footer{
     .submit a{
         font-size: 18px;
         line-height: 29px;
+        
+    }
+    .submit{
+        width: 80%;
     }
     /*part2*/
     .title h2{
         font-size: 24px;
         line-height: 40px;
+        width: 95%;
+    }
+    .respan{
+        display: none!important;
+    }
+    .br{
+        display: none!important;
     }
     .explain p{
         font-size: 16px;
@@ -2095,6 +2148,7 @@ footer{
 .sp-title h2{
     font-size: 16px;
     line-height: 22px;
+    width: 80%;
 }
 .sp-title span{
     font-size: 24px;
@@ -2124,7 +2178,8 @@ footer{
 }
 /*part8*/
 .aria img{
-    left: 42%;  
+    left: 35%;  
+    top: -120px!important;
 }
 .big-bg4{
     padding: 50px 0;
@@ -2141,6 +2196,12 @@ line-height: 22px;
 .card-body3 p{
 font-size: 14px;
 line-height:22px;
+}
+.card-body3{
+    margin: 100px 0;
+}
+.found{
+    padding-top: 0;
 }
 /*part9*/
 .circle2{
@@ -2208,6 +2269,9 @@ line-height: 40px;
 .flow-top h3{
     font-size: 24px;
 }
+.flow-top img{
+    width: 100%;
+}
 .click {
     font-size: 16px;
     line-height: 18px;
@@ -2216,6 +2280,26 @@ line-height: 40px;
     font-size: 14px;
     line-height: 22px;
 }
+.line01{
+    height:30px;
+    width:50%;
+
+  }
+  .line02{
+    height:30px;
+    width:50%;
+
+  }
+  .line03{
+    height:30px;
+    width:50%;
+
+  }
+  .line04{
+    height:30px;
+    width:50%;
+   
+  }
 /*part14*/
 .good li{
     font-size: 14px;
@@ -2273,6 +2357,9 @@ line-height: 40px;
     font-size: 16px;
     line-height: 26px;
 }
+h2{
+    width: 80%;
+}
 .worth p{
     font-size: 16px;
     line-height: 26px;
@@ -2304,7 +2391,9 @@ line-height: 40px;
     font-size: 14px;
     line-height: 22px;
 }
-
+.btn-submit {
+    width: 80% !important;
+}
 .go-form{
     padding:  0 80px ;
 }
