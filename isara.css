@@ -659,8 +659,6 @@ h2 {
 }
 .ms{
     font-style: italic;
-   
-    
 }
 .part10{
     padding: 20px 0 40px 0;
@@ -1185,6 +1183,9 @@ footer{
 /*スマホ*/
 @media (max-width:769px) {
     /*headeer*/
+    .navbar-text-2{
+        display: none;
+    }
     .logo p{
         padding: initial;
         margin: initial;
@@ -1980,18 +1981,18 @@ footer{
         padding: initial;
         margin: initial;
         font-weight: bold;
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 17px;
+        padding-top: 30px;
     }
     .logo{
-        display: flex;
-        flex-direction:column-reverse;
+      
         padding: initial;
         margin: initial;
-        margin-left: 5%;
+        margin-left:10px ;
         flex-wrap: inherit;
-        align-items: flex-start!important;
-        justify-content: space-between;
+       
+        justify-content: flex-start!important;
     }
 .logo img{
     width: 111px;
@@ -1999,24 +2000,17 @@ footer{
     line-height: 16px;
 }
 .navbar{
-    display: flex;
-    position: fixed;
     width: 100%;
 }
-.ss{
-    margin-left: 30%;
-    padding-top: 20%;
-    
-    box-sizing: border-box;
+.navbar-text-2{
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0 0 0 auto;
+    background:rgb(218,107,100);
+    border-radius:30px;
+    padding:11px 40px ;
+    text-decoration: none;
 }
-    .sp span{
-        height: 75px;
-        width: 76px;
-        visibility: visible;
-    }
-    .sp p{
-        padding-left: 7%;
-    }
 
     /*main*/
     #home{
@@ -2179,7 +2173,15 @@ footer{
 /*part8*/
 .aria img{
     left: 35%;  
-    top: -120px!important;
+    top: -170px!important;
+}
+.ip-aria{
+    position: relative!important;
+}
+.ip-aria img{
+    position: absolute;
+    left: 35%;  
+    top: -70px!important;
 }
 .big-bg4{
     padding: 50px 0;
@@ -2202,6 +2204,9 @@ line-height:22px;
 }
 .found{
     padding-top: 0;
+}
+.founded p{
+    margin-bottom: 125px;
 }
 /*part9*/
 .circle2{
@@ -2340,6 +2345,13 @@ line-height: 40px;
     top: -35px;
     left: 34%;
    
+}
+.row{
+    flex-direction: column;
+}
+.gift-item {
+    margin-top: 15px ;
+    margin-bottom: 15px ;
 }
 /*part16*/
 #sub7{
